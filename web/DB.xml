@@ -6,21 +6,18 @@ and open the template in the editor.
 -->
 
 
-<root>
-    <user1>
-        <user>1111</user>
-        <pass>Admin1</pass>
-    </user1>
-    <user2>
-        <user>2222</user>
-        <pass>Admin2</pass>
-    </user1>
-    <user3>
-        <user>3333</user>
-        <pass>Admin3</pass>
-    </user1>
-    <user4>
-        <user>4444</user>
-        <pass>Admin4</pass>
-    </user1>
-</root>
+
+<company>
+	<staff id="1001">
+		<firstname>yong</firstname>
+		<lastname>mook kim</lastname>
+		<nickname>mkyong</nickname>
+		<salary>100000</salary>
+	</staff>
+	<staff id="2001">
+		<firstname>low</firstname>
+		<lastname>yin fong</lastname>
+		<nickname>fong fong</nickname>
+		<salary>200000</salary>
+	</staff>
+</company>
