@@ -1,0 +1,119 @@
+.statusClsSch { /* value not val */
+    background-color:#00c0ef !important;;
+    color:#000;
+}
+.statusClsOngoing { /* value not val */
+    background-color:orange;
+    color:#000;
+}
+.statusClsCanceled { /* value not val */
+    background-color:#b71f39;
+    color:#000;
+}
+.statusClsCompleted { /* value not val */
+    background-color:green;
+    color:#000;
+}
+.has-error{
+    border-color: #a94442;
+}
+
+/*body::-webkit-scrollbar {
+    width: 1em;
+}
+
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    -webkit-box-shadow: inset 0 0 6px rgba(140,172,220,1);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color:#337ab7;
+    outline: 1px solid slategrey;
+}*/
+
+
+body::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #F5F5F5;
+    border-radius: 10px;
+}
+
+body::-webkit-scrollbar
+{
+    width: 10px;
+    background-color: #F5F5F5;
+}
+
+body::-webkit-scrollbar-thumb
+{
+    border-radius: 10px;
+    background-image: -webkit-gradient(linear,
+        left bottom,
+        left top,
+        color-stop(0.44, rgb(122,153,217)),
+        color-stop(0.72, rgb(73,125,189)),
+        color-stop(0.86, rgb(28,58,148)));
+}
+
+/*
+ *  STYLE 10
+ */
+
+#style-10::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #F5F5F5;
+    border-radius: 10px;
+}
+
+#style-10::-webkit-scrollbar
+{
+    width: 10px;
+    background-color: #F5F5F5;
+}
+
+#style-10::-webkit-scrollbar-thumb
+{
+    background-color: #AAA;
+    border-radius: 10px;
+    background-image: -webkit-linear-gradient(90deg,
+        rgba(0, 0, 0, .2) 25%,
+        transparent 25%,
+        transparent 50%,
+        rgba(0, 0, 0, .2) 50%,
+        rgba(0, 0, 0, .2) 75%,
+        transparent 75%,
+        transparent)
+}   
+
+
+.w-webflow-badge {
+    position: fixed !important;
+    display: inline-block !important;
+    visibility: visible !important;
+    z-index: 2147483647 !important;
+    top: auto !important;
+    right: 12px !important;
+    bottom: 12px !important;
+    left: auto !important;
+    color: #AAAD !important;
+    background-color: #fff !important;
+    border-radius: 3px !important;
+    padding: 6px 8px 6px 6px !important;
+    font-size: 14px !important;
+    font-weight: bold;
+    opacity: 1 !important;
+    line-height: 14px !important;
+    text-decoration: none !important;
+    transform: none !important;
+    margin: 0 !important;
+    width: auto !important;
+    height: auto !important;
+    overflow: visible !important;
+    white-space: nowrap;
+    /*box-shadow: 0 0 0 1px rgba(0,0,0,0.1),0 1px 3px rgba(0,0,0,0.1);*/
+    box-shadow: 0 0 0 2px #3c8dbc,5px 10px 10px #337ab7
+        /*box-shadow: 0 0 0 2px #3c8dbc,5px 10px 10px #337ab7;*/
+}

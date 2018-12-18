@@ -1,0 +1,40 @@
+.height-fix{
+    height: 900px;
+}
+.box-height{
+    height:100%;  
+}
+.body-height{
+    position: relative;
+    overflow-y: auto;
+    overflow-x: auto;
+    height: 330px
+}
+.listselectBox{
+    width:200px;
+    height:900px;
+}
+.modal-dialog,
+.modal-content {
+    height: 100%;
+    width:  100%;
+    margin:0px;
+}
+
+.modal-body {
+    overflow-y: scroll;
+}
+.sessionCls{
+    margin-left: 3px;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+#newEmployeelist td ,th
+{
+    text-align:center; 
+    vertical-align:middle;
+}
+
+.btn{
+    margin-right: 3px;
+}
